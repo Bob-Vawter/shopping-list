@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Shopping List Store Transform</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_475932_shopping_store_import</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-18 18:25:15</sys_created_on>
+        <sys_id>695a6b782fd810102c09c886f699b6ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Shopping List Store Transform</sys_name>
+        <sys_package display_value="Shopping List" source="x_475932_shopping">9b682bf42fd810102c09c886f699b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shopping List">9b682bf42fd810102c09c886f699b67f</sys_scope>
+        <sys_update_name>sys_transform_map_695a6b782fd810102c09c886f699b6ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-18 18:25:15</sys_updated_on>
+        <target_table>x_475932_shopping_store</target_table>
+    </sys_transform_map>
+</record_update>
